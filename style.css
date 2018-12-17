@@ -1,0 +1,140 @@
+*
+{
+  margin: 0;
+  padding: 0;
+}
+.clearfix {
+  clear: both;
+}
+.wrapper {
+  width: 2000px;
+  font-family: sans-serif;
+  font-style: normal;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.content-space {
+  margin: 0 auto;
+  width: 1170px;
+}
+
+.positioning-space-between {
+  display: flex;
+  justify-content: space-between;
+}
+
+.logo {
+  width: 156px;
+  height: 47px;
+  background-image: url(images/Logo.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  margin: 50px 0;
+}
+
+.logo-link {
+  display: block;
+  width: 156px;
+  height: 47px;
+}
+
+.nav-menu {
+  display: flex;
+  justify-content: space-between;
+  width: 660px;
+}
+
+.nav-item {
+  list-style-type: none;
+  margin: 50px 0;
+}
+
+.nav-link {
+  display: block;
+  text-decoration: none;
+  font-size: 18px;
+  color: #31353e;
+  padding: 15px;
+  border: none;
+  border-radius: 25px;
+}
+
+.nav-link:hover {
+  background-color: red;
+  color: white;
+}
+
+.main {
+  background-image: url(images/MainBackground.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.main-title {
+  color: white;
+  font-size: 72px;
+  text-align: center;
+  padding-top: 490px;
+}
+
+.main-title-little {
+  font-size: 30px;
+  color: white;
+  text-align: center;
+}
+
+.main-list {
+  display: flex;
+  justify-content: space-between;
+  color: white;
+  margin-top: 115px;
+}
+
+.food {
+  padding: 180px 0 70px;
+  list-style-type: none;
+  text-align: center;
+}
+
+.tincidunt {
+  background-image: url(images/Tincidunt.png);
+  background-repeat: no-repeat;
+  background-position: top center;
+}
+
+.duis-bibendum {
+  background-image: url(images/DuisBibendum.png);
+  background-repeat: no-repeat;
+  background-position: top center;
+}
+
+.donec-ligula {
+  background-image: url(images/DonecLigula.png);
+  background-repeat: no-repeat;
+  background-position: top center;
+}
+
+.food-name {
+  font-size: 30px;
+}
+
+.food-description {
+  padding-top: 20px;
+  font-size: 15px;
+  width: 330px;
+}
+
+.read-more {
+  display: block;
+  margin: 0 auto;
+  color: #31353e;
+  padding: 15px 60px;
+  border: none;
+  border-radius: 25px;
+  font-size: 15px;
+}
+
+.main-padding-bottom {
+  padding-bottom: 60px;
+}
